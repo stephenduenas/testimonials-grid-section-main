@@ -63,7 +63,7 @@ html {
 }
 @media only screen and (min-width: 769px) {
   .testimonials {
-    grid-template-columns: 1fr repeat(4, [col-start] 275px [col-end]) 1fr;
+    grid-template-columns: 1fr repeat(4, [col-start] minmax(auto, 275px) [col-end]) 1fr;
     grid-template-rows: 1fr repeat(2, [row-start] min-content [row-end]) 1fr;
     margin: 2rem 0;
   }
